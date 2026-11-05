@@ -4,6 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
+        Console.WriteLine("Hello World! This is the Exercise2 Project.");
+ 
         Random randomGenerator = new Random();
         int magicNumber = randomGenerator.Next(1, 101);
 
